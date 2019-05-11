@@ -1,0 +1,52 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+.container {
+    max-width: 700px;
+}
+
+input {
+    font-family: 'Baloo Bhaina';
+    border: none;
+    border: 2px solid black;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+
+    &:disabled {
+        color: white;
+        background-color: #666666;
+    }
+}
+
+button {
+    font-family: 'Baloo Bhaina';
+    border: none;
+    border: 2px solid black;
+    width: 100%;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    height: 35px;
+    line-height: 35px;
+    background-color: white;
+    transition: .3s ease-out;
+
+    &:hover {
+        transition: .3s ease-out;
+        background-color: black;
+        color: white;
+    }
+}
+
+.frac-img {
+    width: 80px;
+    height: 80px;
+}
+
+.loss {
+    font-family: 'Baloo Bhaina';
+}
+
+@import './dice.scss';
+@import './discrete_select.scss';
+@import './victory.scss';

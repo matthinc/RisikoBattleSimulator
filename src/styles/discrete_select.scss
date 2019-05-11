@@ -1,0 +1,26 @@
+.ds-selected {
+    display: inline-block;
+    font-family: 'Baloo Bhaina';
+    border: 2px solid black;
+    font-size: 20px;
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+}
+
+.ds-unselected {
+    display: inline-block;
+    font-family: 'Baloo Bhaina';
+    border: 2px solid black;
+    font-size: 20px;
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
